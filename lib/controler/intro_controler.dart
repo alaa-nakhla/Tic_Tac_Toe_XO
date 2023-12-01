@@ -5,6 +5,6 @@ class IntroControler extends GetxController{
   RxBool loading = true.obs;
   @override
   void onReady() {
-    Get.offAll(XoGame());
+    Get.offAll(()=>XoGame());
   }
 }
